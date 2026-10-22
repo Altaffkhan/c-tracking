@@ -53,8 +53,7 @@ getline(cin, repass);
  cout << "Initial Balance = 0 " << '\n';
  cout << "1. Deposite Money" << '\n';
  cout << "2. Withdraw money" << '\n';
- cout << "3. Check Balance" << '\n';
- cout << "Enter Your Choice(1-3): ";
+ cout << "Enter Your Choice(1-2): ";
  cin >> c;
  //amount deposite
 if(c == 1){
@@ -69,15 +68,11 @@ if(c == 1){
 }
 else if(c == 2){
 cout << "enter The Amount To Withdraw: ";
+cin >> ws;
 cin >> W;
 if(b = 0){
     cout << "Account Has No Money To Withdraw";
-
 }
- else if(c == 3){
-    cout << "Balance: " << b <<'\n';
-
- }
 }
 else {
     cout << "Invalid Choice!";
@@ -98,8 +93,7 @@ cin >> pass;
 
 cout << "1. Deposite Money" << '\n';
  cout << "2. Withdraw money" << '\n';
- cout << "3. Check Balance" << '\n';
- cout << "Enter Your Choice(1-3): ";
+ cout << "Enter Your Choice(1-2): ";
  cin >> c;
  //amount deposite
 if(c == 1){
@@ -119,10 +113,6 @@ if(b = 0){
     cout << "Account Has No Money To Withdraw";
 
 }
- else if(c == 3){
-    cout << "Balance: " << b <<'\n';
-
- }
 }
 else {
     cout << "Invalid Choice!";
@@ -148,3 +138,12 @@ else {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
